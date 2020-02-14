@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+
+gem 'sinatra', '~> 2.0', '>= 2.0.3'
+gem 'mongo'
+gem 'bson_ext'
+gem 'foreman'
+gem 'puma'
+gem "prometheus-client", "~> 0.10.0.pre.alpha.2"

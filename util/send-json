@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/usr/bin/curl -k -H "Content-Type: application/json" -X POST -d @$1 https://localhost/report
+
